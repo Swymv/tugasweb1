@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Warna latar belakang */
+    display: flex; /* Menjadikan body sebagai flex container */
+    justify-content: center; /* Mengatur konten ke tengah secara horizontal */
+    align-items: center; /* Mengatur konten ke tengah secara vertikal */
+    height: 100vh; /* Mengatur tinggi body untuk memastikan konten berada di tengah */
+}
+
+.container {
+    width: 300px; /* Lebar kontainer */
+    background-color: #ffffff; /* Warna latar belakang kontainer */
+    padding: 20px; /* Padding di dalam kontainer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan di sekitar kontainer */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
+.input-container {
+    display: flex; /* Mengatur tata letak untuk elemen dalam kontainer */
+    align-items: center; /* Menyelaraskan elemen di tengah secara vertikal */
+}
+
+#task-input {
+    flex: 1; /* Memungkinkan input mengisi ruang */
+    padding: 10px; /* Padding di dalam input */
+    border: 1px solid #ccc; /* Garis batas */
+    border-radius: 5px; /* Sudut melengkung pada input */
+    margin-right: 5px; /* Jarak antara input dan tombol */
+}
+
+button {
+    padding: 10px; /* Padding di dalam tombol */
+    background-color: #c5c5c5; /* Warna latar belakang tombol */
+    color: #000000; /* Warna teks tombol */
+    border: none; /* Menghapus garis batas */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    cursor: pointer; /* Mengubah kursor saat hover */
+}
+
+button:hover {
+    background-color: #666161; /* Warna tombol saat hover */
+}
+
+ul {
+    list-style: none; /* Menghapus titik pada daftar */
+    margin-top: 20px; /* Margin atas untuk daftar */
+
+}
+
+li {
+    display: flex; /* Mengatur tata letak item daftar */
+    justify-content: space-between; /* Membagi ruang di antara elemen */
+    align-items: center; /* Mengatur item di tengah secara vertikal */
+    background-color: #ffffff; /* Warna latar belakang item daftar */
+    padding: 10px; /* Padding di dalam item daftar */
+    margin-bottom: 10px; /* Margin bawah untuk spasi antar item */
+    border: 1px solid #ddd; /* Garis batas */
+    border-radius: 5px; /* Sudut melengkung pada item daftar */
+}
+
+.delete-icon {
+    width: 20px; /* Menentukan lebar gambar */
+    height: 20px; /* Menentukan tinggi gambar */
+    cursor: pointer; /* Mengubah kursor saat hover */
+}
